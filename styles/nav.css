@@ -11,7 +11,8 @@ nav ul {
   display: flex;
   align-items: center;
   gap: 24px;
-
+  font: var(--text);
+  color: var(--text-color-secondary);
   padding-block: 8px;
 }
 
