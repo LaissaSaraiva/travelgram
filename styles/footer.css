@@ -14,3 +14,15 @@ footer ul {
 footer span {
   margin-right: auto;
 }
+
+@media (max-width: 640px) {
+
+  footer span,
+  footer li {
+    font: var(--text-sm);
+  }
+
+  footer ul {
+    gap: 12px;
+  }
+}
