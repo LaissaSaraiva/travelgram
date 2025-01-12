@@ -11,3 +11,16 @@ main img {
   height: 286px;
   object-fit: cover;
 }
+
+@media (max-width: 640px) {
+
+  main>div {
+    gap: 12px;
+  }
+
+  main img {
+    width: 45%;
+    height: 45%;
+    object-fit: cover;
+  }
+}

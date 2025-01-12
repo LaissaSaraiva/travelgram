@@ -22,3 +22,9 @@ nav ul li:last-child img {
   object-fit: cover;
   border-radius: 50%;
 }
+
+@media (max-width: 640px) {
+  nav #primary-menu {
+    display: none;
+  }
+}
