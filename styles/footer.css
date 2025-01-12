@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  padding-block: 24px;
+  font: 14px/150% var(--font-family);
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+}
+
+footer span {
+  margin-right: auto;
+}
